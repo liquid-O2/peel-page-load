@@ -1,10 +1,10 @@
-import * as React from "react"
+import React from "react"
 
-const Footer = ({ siteTitle }) => (
-  <footer className='p20'>
+const Footer = () => (
+  <footer className='p20 w-100 text-center'>
     © {new Date().getFullYear()} &middot; Built by
     {` `}
-    <a href="https://www.groundcrew.com.au">Groundcrew</a>
+    <a href='https://www.groundcrew.com.au'>Groundcrew</a>
   </footer>
 )
 

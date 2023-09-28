@@ -2,3 +2,9 @@
 ## Header Styling
 --------------------------------------------------------------*/
 
+header {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 2;
+}

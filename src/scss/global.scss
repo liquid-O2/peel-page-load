@@ -3,97 +3,97 @@
 --------------------------------------------------------------*/
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
 .link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .overflow {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 /* ------------ Grid Styles ------------ */
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
 
 /* ------------ Flex Styles ------------ */
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .flex-wrap {
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .align-center {
-	align-items: center;
+  align-items: center;
 }
 
 /* ------------ Margin Styles ------------ */
 
 .m0 {
-	margin: 0px;
+  margin: 0px;
 }
 
 .ma {
-	margin: auto;
+  margin: auto;
 }
 
 .mla {
-	margin-left: auto;
+  margin-left: auto;
 }
 
 .mra {
-	margin-right: auto;
+  margin-right: auto;
 }
 
 .mta {
-	margin-top: auto;
+  margin-top: auto;
 }
 
 .mba {
-	margin-bottom: auto;
+  margin-bottom: auto;
 }
-
 
 /* ------------ Padding Styles ------------ */
 
 .p20 {
-	padding: 20px;
+  padding: 20px;
 }
 
 .p30 {
-	padding: 30px;
+  padding: 30px;
 }
 
 /* ------------ BG Styles ------------ */
 
 .pos-rel {
-	position: relative;
+  position: relative;
 }
 
 .bg-grey {
-	background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ------------ Image Styles ------------ */
 
-div.bg-image, .bg-image {
+div.bg-image,
+.bg-image {
   left: 0px;
   top: 0px;
   width: 100%;
@@ -105,68 +105,74 @@ div.bg-image, .bg-image {
 /* ------------ Spacer Styles ------------ */
 
 .spacer {
-	height: 100px;
+  height: 100px;
 }
 
 /* ------------ Ratio Styles ------------ */
 
 .ratio-1-2 {
-	width: 100%;
-	padding-top: 120%;
+  width: 100%;
+  padding-top: 120%;
 }
 
 .ratio-2-1 {
-	width: 100%;
-	padding-top: 60%;
+  width: 100%;
+  padding-top: 60%;
 }
 
 /* ------------ Width Styles ------------ */
 
 .w-50 {
-	width: 50%;
+  width: 50%;
 }
 
 .w-100 {
-	width: 100%;
+  width: 100%;
+}
+
+.w-100vw {
+  width: 100vw;
 }
 
 /* ------------ Height Styles ------------ */
 
 .h-100 {
-	height: 100%;
+  height: 100%;
 }
 
+.h-100vh {
+  height: 100lvh;
+}
 
 /* ------------ Max Styles ------------ */
 
 .max-1600 {
-	max-width: 1600px;
+  max-width: 1600px;
 }
 
 /* ------------ Mobile Styles ------------ */
 
 .m-hide {
-	@media(max-width: 768px) {
-		display: none;
-	}
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .m-show {
-	display: none;
-	@media(max-width: 768px) {
-		display: inherit;
-	}
+  display: none;
+  @media (max-width: 768px) {
+    display: inherit;
+  }
 }
 
 .m-wrap {
-	@media(max-width: 768px) {
-		flex-wrap:wrap;
-	} 
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 }
 
 .m-100 {
-	@media(max-width: 768px) {
-		width: 100%;
-	}
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
-

@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+## Reset Styling
+--------------------------------------------------------------*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0px;
+  appearance: none;
+  font: inherit;
+  color: inherit;
+  box-sizing: border-box;
+}

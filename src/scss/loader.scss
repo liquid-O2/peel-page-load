@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+## Loader Styling
+--------------------------------------------------------------*/
+
+.loader--wrapper {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  .loader--slide {
+    &-one,
+    &-two {
+      position: fixed;
+      inset: auto auto 0px auto;
+      width: 100%;
+      height: 100%;
+    }
+    &-one {
+      background: #696059;
+      z-index: 7;
+    }
+    &-two {
+      background: #867c73;
+      z-index: 6;
+    }
+  }
+  .loader--number{
+    position: fixed;
+    font-size: 18px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+  }
+}

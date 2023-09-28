@@ -1,7 +1,9 @@
-import * as React from "react"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+
 import Header from "./header"
-import Footer from "./footer"
+import { Loader } from "./loader"
+
 import "../scss/site.scss"
 
 const Layout = ({ children }) => {
@@ -16,9 +18,9 @@ const Layout = ({ children }) => {
   `)
   return (
     <>
+      <Loader />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>{children}</main>
-      <Footer />
     </>
   )
 }
