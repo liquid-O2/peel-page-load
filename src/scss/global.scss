@@ -22,6 +22,10 @@ a {
   overflow: hidden;
 }
 
+.br10 {
+  border-radius: 10px;
+}
+
 /* ------------ Grid Styles ------------ */
 
 .grid {
@@ -40,8 +44,24 @@ a {
   flex-wrap: wrap;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-60 {
+  gap: 60px;
+}
+
 .align-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 /* ------------ Margin Styles ------------ */
@@ -80,6 +100,10 @@ a {
   padding: 30px;
 }
 
+.p40 {
+  padding: 40px;
+}
+
 /* ------------ BG Styles ------------ */
 
 .pos-rel {
@@ -102,6 +126,14 @@ div.bg-image,
   object-fit: cover;
 }
 
+.bg-light {
+  background: #867c73;
+}
+
+.bg-dark {
+  background: #696059;
+}
+
 /* ------------ Spacer Styles ------------ */
 
 .spacer {
@@ -110,15 +142,43 @@ div.bg-image,
 
 /* ------------ Ratio Styles ------------ */
 
+.ratio-1-1 {
+  width: 100%;
+  aspect-ratio: 1/1 !important;
+}
+
 .ratio-1-2 {
   width: 100%;
-  padding-top: 120%;
+  aspect-ratio: 1/2 !important;
+  max-height: 90vh;
 }
 
 .ratio-2-1 {
   width: 100%;
-  padding-top: 60%;
+  aspect-ratio: 2/1;
 }
+
+.ratio-2-3 {
+  width: 100%;
+  aspect-ratio: 2/3;
+}
+
+.ratio-16-9 {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+// .z-3 {
+//   z-index: 3;
+// }
+
+// .z-2 {
+//   z-index: 2;
+// }
+
+// .z-1 {
+//   z-index: 1;
+// }
 
 /* ------------ Width Styles ------------ */
 
@@ -148,6 +208,25 @@ div.bg-image,
 
 .max-1600 {
   max-width: 1600px;
+}
+
+.max-500 {
+  max-width: 500px;
+}
+
+.max-h-600 {
+  height: 100%;
+  max-height: 60vh;
+}
+
+/* ------------ Min Styles ------------ */
+
+.min-100vh {
+  min-height: 100vh;
+}
+
+.min-200vh {
+  min-height: 200vh;
 }
 
 /* ------------ Mobile Styles ------------ */

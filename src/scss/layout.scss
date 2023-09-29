@@ -23,14 +23,17 @@ h3 {
 }
 
 body {
-  position: relative;
   color: #f2eeea;
   font-size: 16px;
   background: #867c73;
-  overflow-x: hidden;
+  overflow: unset;
   font-family: "Onest", sans-serif;
   -webkit-font-smoothing: antialiased;
   ::selection {
     background: #d2fd78;
   }
+}
+
+main {
+  overflow: unset;
 }
